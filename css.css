@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsl(0, 0%, 8%);
+}
+
+.wrapper {
+	width: 30%;
+	min-width: 350px;	
+	max-width: 400px;
+	margin: 100px auto;
+	background-color: hsl(0, 0%, 12%);
+	padding: 48px 40px;
+	border-radius: 20px;
+}
+
+figure {
+	margin: 0;
+}
+
+img {
+	border-radius: 46%;
+	width: 45%;
+	max-width: 100px;
+	max-height: 100px;
+	margin-inline: auto;
+	display: block;
+}
+
+h1, p {
+	color: white;
+	text-align: center;
+	font-family: Inter;
+}
+
+h1 {
+	font-size: 1.7rem;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.location {
+	color: hsl(75, 94%, 57%);
+	font-size: 1rem;
+	font-weight: 600;
+	margin-top: 8px;
+}
+
+.description {
+	font-size: 0.9rem;
+	margin-top: 30px;
+}
+
+.section {
+	margin-top: 20px;
+	background-color: hsl(0, 0%, 20%);
+	min-height: 30px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+.section p {
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+a {
+	color: unset;
+	text-decoration: none;
+}
+
+.section:hover {
+	background-color: hsl(75, 94%, 57%);
+	color: black;
+}
+
+/*Codes for mobile phones*/
+
+@media screen and (max-width: 480px) { 
+	.wrapper {
+		width: 80%;
+		max-width: 300px;
+		padding: 24px 20px;
+	}
+}
