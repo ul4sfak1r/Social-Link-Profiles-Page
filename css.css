@@ -7,8 +7,7 @@ body {
 }
 
 .wrapper {
-	width: 30%;
-	min-width: 350px;	
+	width: 80%;
 	max-width: 400px;
 	margin: 100px auto;
 	background-color: hsl(0, 0%, 12%);
@@ -76,14 +75,21 @@ a {
 .section:hover {
 	background-color: hsl(75, 94%, 57%);
 	color: black;
+	cursor: pointer;
+	c
+}
+
+.section > p:hover {
+	color: black;
+	cursor: pointer;
 }
 
 /*Codes for mobile phones*/
 
 @media screen and (max-width: 480px) { 
 	.wrapper {
-		width: 80%;
-		max-width: 300px;
+		width: 90%;
+		max-width: 450px;
 		padding: 24px 20px;
 	}
 }
